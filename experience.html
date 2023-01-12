@@ -1,0 +1,171 @@
+<html>
+<head>
+
+<a name="First_Anchor"></a>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 16.6%; /* Six links of equal widths */
+  height: 55px;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #FC6674;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+<body>
+
+
+<div class="navbar">
+  <a href="biodata.html">Biodata </a> 
+  <a href="experience.html">Experience</a> 
+  <a href="family.html">Family</a>
+  <a href="education.html">Education</a>
+  <a href="gallery.html">Gallery</a> 
+  <a href="contact.html">Contact</a>
+</div>
+
+
+<link href="assest/css/style.css" rel="stylesheet">
+<title> EXPERIENCE </title>
+<style>
+
+body {
+  background-image: url("assest/image/background_1.png");
+
+  height:100%; 
+  backdrop-filter: blur(3px);
+  background-position: relative;
+  background-size: cover;
+}
+
+</style>
+</head>
+
+<center> <h1 style="color:white; font-family:Snap ITC; font-size:500%;"> SYAFIQ'S EXPERIENCE </h1> </center>
+
+<body> <center>
+<a href="index.html"> <img src="assest/image/button.png" height="50" width="50"> </a> 
+</center></body>
+
+<style>
+.collapsible {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+
+<p><b><center> <font size="5px"> SPM </font> </b></p>
+<button class="collapsible"> Work Experience After SPM </button>
+<div class="content">
+  <p>Worked as a laborer in a wood factory for six months until he got an offer to continue his studies at the diploma level at UiTM.</p>
+</div> <br><br> </center>
+
+<p><b> <center> <font size="5px"> DIPLOMA </font>  </b></p>
+<button class="collapsible"> Work Experience After Diploma </button>
+<div class="content">
+  <p>Worked at the Community Center for one year and organized many events around the residential area. Teach users to use computers.</p>
+</div> <br><br> </center>
+
+<p><b> <center> <font size="5px"> DEGREE </font> </b></p>
+<button class="collapsible"> Work Experience After Degree </button>
+<div class="content">
+  <p>Conducted post-degree job training at Intel Company for six months and worked for one year at Celcom Company.</p>
+</div> </center>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</body>
+
+<br><br><br><br><br><br>
+
+<body>
+<style>
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+</style>
+</head>
+
+<a href="#First_Anchor">  <img src="assest/image/anchor.png" height="5%" width="4%" align="right">  </a> <br><br>
+
+<body>
+
+<footer>
+  <p> Copyright ©2022 SYAFIQ BIN AHMAD ASRI </p>
+</footer>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+
+h2 {
+  color: black;
+  font-family: Rockwell;
+  font-size: 150%;
+}
+
+body {background-color:#2d2d2d;}
+
+#timedate {
+  font: small-caps lighter 43px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  text-align:center;
+  width: 50%;
+  margin: 40px auto;
+  color:#fff;
+  padding: 20px;
+}
+
+
+table, th, td {
+  border:1px solid black;
+}
+
